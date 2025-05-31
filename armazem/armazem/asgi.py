@@ -1,5 +1,5 @@
 """
-ASGI config for saindo_primitivo project.
+ASGI config for armazem project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "saindo_primitivo.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "armazem.settings")
 
 application = get_asgi_application()
